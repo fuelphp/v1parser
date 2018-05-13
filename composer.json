@@ -18,7 +18,10 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Fuel\\Parser\\": "classes/"
-		}
+			"Parser\\": "classes/"
+		},
+		"files": [
+			"src/bootstrap.php"
+		]
 	}
 }
